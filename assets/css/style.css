@@ -4,6 +4,10 @@ body {
     font-family: Vazirmatn;
 }
 
+a {
+    text-decoration: none;
+}
+
 
 /* Social network */
 
