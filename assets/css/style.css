@@ -1,0 +1,20 @@
+/* fonts */
+
+body {
+    font-family: Vazirmatn;
+}
+
+
+/* Social network */
+
+div.social-links ul .social {
+    background-color: yellowgreen;
+    border-radius: 1rem;
+    padding: 0.5rem;
+    line-height: 0;
+    transition: 0.3s;
+}
+
+div.social-links ul .social:hover {
+    box-shadow: 0 0 1rem gray;
+}
