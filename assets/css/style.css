@@ -34,6 +34,30 @@ div#status {
 }
 
 
+/* nav */
+
+nav.fadeInDown {
+    animation-duration: 3s;
+    animation-delay: 0.9s;
+    animation-name: fadeInDown;
+}
+
+
+/* profile */
+
+div.profile {
+    animation-duration: 3s;
+    animation-delay: 0.9s;
+    animation-name: pulse;
+}
+
+div img.bounceInLeft {
+    animation-duration: 3s;
+    animation-delay: 0.9s;
+    animation-name: bounceInLeft;
+}
+
+
 /* Social network */
 
 div.social-links ul .social {
