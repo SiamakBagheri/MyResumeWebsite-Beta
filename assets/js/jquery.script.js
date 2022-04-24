@@ -20,3 +20,19 @@ $(function() {
         offset: 'bottom-in-view' //Sensitize the bottom of the page
     });
 });
+
+
+// Smooth Scroll
+
+$(function() {
+    $(" a.smooth-scroll ").click(function(e) {
+        e.preventDefault(); // حالت پیش فرض مرورگر رو غیرفعال میکنیم
+
+        var sectionid = $(this).attr("href"); // آدرس اونا رو در یک متغیر میریزیم
+
+        $("html, body").animate({
+            scrollTop: $(sectionid).offset().top
+        }, 1250); // بعد با ویژگی انیمیشن کارون رو راه میندازیم
+
+    });
+})
